@@ -1,7 +1,43 @@
-a.brand-logo {
-  font-family: 'Amatic SC', cursive;
+body {
+  size: 100%
 }
 
-li {
+
+
+header {
+  background-color: #e91e63;
+  display:flex;
+  justify-content: space-between;
+}
+
+div.nav-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 150px;
+}
+
+li.header-item {
+  font-size: 20px;
+  font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+a.header-title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  }
+  
+  #header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  }
+  
+  #header-nav li{
+  display: inline;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
