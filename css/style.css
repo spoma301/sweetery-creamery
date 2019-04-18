@@ -1,0 +1,85 @@
+.container {
+width:1200px;
+height:auto;
+margin: 120px;
+display: flex;
+justify-content: space-between;
+padding: 20px 0;
+flex-wrap: wrap;
+flex-grow: 10px;
+}
+
+.photo-card {
+  height: 340px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(302deg, rgba(250,103,255,1) 0%, rgba(69,252,244,1) 100%);
+}
+
+.pink {
+  background: linear-gradient(302deg, rgba(250,103,255,1) 0%, rgba(69,252,244,1) 100%);
+}
+
+.teal {
+  background: linear-gradient(302deg, rgba(103,113,255,1) 0%, rgba(69,252,96,1) 100%);
+
+}
+
+.blue {
+  background: linear-gradient(302deg, rgba(138,103,255,1) 0%, rgba(252,96,69,1) 100%);
+}
+
+.green {
+  background: linear-gradient(302deg, rgba(244,255,103,1) 0%, rgba(252,157,69,1) 100%);
+}
+
+.red {
+  background: rgb(244,255,103);
+  background: linear-gradient(302deg, rgba(244,255,103,1) 0%, rgba(69,248,252,1) 100%);
+
+}
+
+.orange {
+  background: rgb(185,255,103);
+background: linear-gradient(302deg, rgba(185,255,103,1) 0%, rgba(133,69,252,1) 100%);
+}
+
+.photo-card > img {
+  width: 300px;
+  height: auto;
+  background-size: cover;
+
+}
+.photo-card-title {
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  text-transform: uppercase;
+}
+.icons {
+  font-size: 10px; 
+  color: white;
+  text-align: center;
+}
+
+.photo2 {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  position: fixed
+  bottom: 0;
+  right: 0;
+  width: 300px;
+
+}
+  
+.photo2 > img{
+  width: 300px;
+  height: auto;
+  background-size: cover;
+}
